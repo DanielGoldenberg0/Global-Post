@@ -1,0 +1,21 @@
+nav {
+  background-color: #f7a643;
+  color: whitesmoke;
+  border-bottom: 2px solid #c8c8c8;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: whitesmoke;
+}
+
+#nav-title {
+  font-size: 1.75rem;
+  padding: 15px;
+  list-style: none;
+}
+
+#nav-title:hover {
+  cursor: pointer;
+}

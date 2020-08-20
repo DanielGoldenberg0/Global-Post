@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
-import "./styles/index.css"
+import "./css/index.css"
+import Navbar from "./components/Navbar"
+import PostContainer from "./components/PostContainer"
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Global Post</h1>
+        <Navbar/>
+        <PostContainer/>
       </div>
     )
   }
