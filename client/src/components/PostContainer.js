@@ -14,6 +14,7 @@ class PostContainer extends Component {
         <Post/>
         <Post/>
         <Post/>
+        <Post/>
 			</div>
 		)
 	}

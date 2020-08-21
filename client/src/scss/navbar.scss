@@ -1,23 +1,24 @@
 @import "./globals";
 
 nav {
-    background-color: $primary-color;
-    color: whitesmoke;
-    border-bottom: 2px solid $accent-color;
-    position: fixed;
-    width: 100%;
+  background-color: $primary-color;
+  color: whitesmoke;
+  border-bottom: 2px solid $accent-color;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav a {
-    color: $secondary-color;
+  color: $secondary-color;
 }
 
 #nav-title {
-    font-size: 1.75rem;
-    padding: 15px;
-    list-style: none;
+  font-size: 1.75rem;
+  padding: 15px;
+  list-style: none;
 }
 
 #nav-title:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

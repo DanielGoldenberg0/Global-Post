@@ -1,10 +1,23 @@
 #post-container {
-  border: 1px solid black;
-  margin: 20px 0;
+  margin: 90px 0 10px 0;
 }
 
 .post {
   border: 1px solid black;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(80, 80, 80, 0.75);
+          box-shadow: 0px 2px 6px 0px rgba(80, 80, 80, 0.75);
   padding: 5px;
   margin: 5px;
+}
+
+.post-username {
+  font-size: 22px;
+}
+
+.post-date {
+  font-size: 20px;
+}
+
+.post-content {
+  font-size: 20px;
 }

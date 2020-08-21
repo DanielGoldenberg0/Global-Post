@@ -3,6 +3,7 @@ nav {
   color: whitesmoke;
   border-bottom: 2px solid #c8c8c8;
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
