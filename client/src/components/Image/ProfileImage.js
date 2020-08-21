@@ -1,5 +1,5 @@
 import React from "react"
-import profile from "../../images/default_profile.png"
+import profile from "../../images/profile.png"
 
 const ProfileImage = () => <img src={profile} alt="Profile Image" height="60"/>
 
