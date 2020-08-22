@@ -1,2 +1,2 @@
 cd server
-./main
+./server
