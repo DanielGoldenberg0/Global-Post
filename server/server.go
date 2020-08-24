@@ -13,7 +13,6 @@ func main() {
 	fmt.Println(" * Running on http://localhost:8080")
 	fmt.Println(" * IP: localhost")
 	fmt.Println(" * Port: 8080")
-	fmt.Println(" * And then I wenrjdfjs")
 
 	r := mux.NewRouter()
 
