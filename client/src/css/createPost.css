@@ -1,0 +1,31 @@
+#create-post-container {
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(160, 160, 160, 0.45);
+          box-shadow: 0px 1px 2px 1px rgba(160, 160, 160, 0.45);
+  margin: 100px 300px 30px 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+#create-post-container h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#create-post-container textarea {
+  padding: 5px;
+  height: 30px;
+  width: 300px;
+}
+
+#create-post-container button {
+  background-color: #c8c8c8;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 2px 5px;
+  margin-top: 10px;
+}
+
+#create-post-container button:hover {
+  cursor: pointer;
+}

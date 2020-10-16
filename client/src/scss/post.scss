@@ -1,16 +1,10 @@
 @import "./globals";
 
 #post-container {
-  margin: 100px 0 30px 0;
+  margin: 10px 0 30px 0;
 }
 
 .post {
-  border: 1px solid $accent-color;
-  border-radius: 10px;
-  box-shadow: $box-shadow;
-  padding: 5px 10px 10px;
-  margin: 10px 50px;
-  background-color: rgb(235, 235, 235);
   .post:last-of-type {
     margin-bottom: 30px;
   }
@@ -32,7 +26,7 @@
 }
 
 .post-username {
-  color: $primary-color;
+  color: $accent-color;
   font-size: 22px;
   font-weight: 600;
 }

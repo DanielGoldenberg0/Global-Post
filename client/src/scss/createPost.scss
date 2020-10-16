@@ -1,0 +1,32 @@
+@import "./globals";
+
+#create-post-container {
+  box-shadow: $box-shadow;
+  margin: 100px 300px 30px 300px;
+  padding: 10px;
+  text-align: center;
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    padding: 5px;
+    height: 30px;
+    width: 300px;
+  }
+
+  button {
+    background-color: $secondary-color;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 2px 5px;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}

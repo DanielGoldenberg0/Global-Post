@@ -1,15 +1,15 @@
 @import "./globals";
 
 nav {
-  background-color: $primary-color;
+  background-color: $accent-color;
   color: whitesmoke;
-  border-bottom: 2px solid $accent-color;
+  border-bottom: 2px solid $secondary-color;
   position: fixed;
   top: 0;
   z-index: 999;
   width: 100%;
   a {
-    color: $secondary-color;
+    color: $primary-color;
   }
 }
 
