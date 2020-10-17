@@ -10,20 +10,27 @@
   }
 
   textarea {
+    border: 1px solid $border-color;
+    border-radius: 5px;
     padding: 5px;
     height: 30px;
     width: 300px;
   }
 
+  textarea:focus, button:focus {
+    outline: none;
+  }
+
   button {
-    background-color: $secondary-color;
+    background-color: white;
+    border: 1px solid $border-color;
     font-size: 16px;
     border-radius: 3px;
-    border: 1px solid black;
     padding: 2px 5px;
   }
 
   button:hover {
+    background-color: whitesmoke;
     cursor: pointer;
   }
 }
