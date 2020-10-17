@@ -3,7 +3,7 @@
 nav {
   background-color: $accent-color;
   color: whitesmoke;
-  border-bottom: 2px solid $secondary-color;
+  box-shadow: $box-shadow;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -14,7 +14,7 @@ nav {
 }
 
 #nav-title {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding: 15px;
   list-style: none;
 }

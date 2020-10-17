@@ -11,8 +11,8 @@ body {
 }
 
 .box {
-  border-radius: 10px;
-  box-shadow: $box-shadow;
-  padding: 5px 10px 10px;
-  margin: 20px 50px;
+  background-color: $secondary-color;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  padding: 5px 50px;
 }

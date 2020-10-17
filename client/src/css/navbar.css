@@ -1,7 +1,8 @@
 nav {
   background-color: #54769f;
   color: whitesmoke;
-  border-bottom: 2px solid #c8c8c8;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(160, 160, 160, 0.45);
+          box-shadow: 0px 1px 2px 1px rgba(160, 160, 160, 0.45);
   position: fixed;
   top: 0;
   z-index: 999;
@@ -9,11 +10,11 @@ nav {
 }
 
 nav a {
-  color: whitesmoke;
+  color: #e6e6e6;
 }
 
 #nav-title {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding: 15px;
   list-style: none;
 }

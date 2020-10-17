@@ -6,7 +6,7 @@ class CreatePost extends Component {
     return (
       <div id="create-post-container" className="box">
         <h1>Create Post</h1>
-        <textarea></textarea>
+        <textarea placeholder="Create Post"></textarea>
         <br/>
         <button>Post</button>
       </div>

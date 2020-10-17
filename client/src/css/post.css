@@ -1,5 +1,6 @@
-#post-container {
-  margin: 10px 0 30px 0;
+.post {
+  padding: 10px;
+  margin: 10px 20px;
 }
 
 .post .post:last-of-type {
