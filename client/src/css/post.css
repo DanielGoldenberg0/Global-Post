@@ -1,10 +1,13 @@
-.post {
-  padding: 10px;
-  margin: 10px 20px;
+#post-container {
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 30px;
+  margin-right: 20%;
 }
 
-.post .post:last-of-type {
-  margin-bottom: 30px;
+.post {
+  padding: 10px;
+  margin: 5px 30px;
 }
 
 .post-profile-image {
@@ -24,7 +27,7 @@
 }
 
 .post-username {
-  color: #54769f;
+  color: #e59341;
   font-size: 22px;
   font-weight: 600;
 }
@@ -35,6 +38,6 @@
 }
 
 .post-content {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }

@@ -1,34 +1,43 @@
 #create-post-container {
-  margin: 90px 20px 10px 20px;
+  display: -ms-grid;
+  display: grid;
+  margin-right: 20%;
+}
+
+#create-post-box {
+  margin: 90px 30px 10px 30px;
   text-align: center;
 }
 
-#create-post-container h1 {
+#create-post-box h1 {
   font-size: 36px;
   margin-bottom: 10px;
 }
 
-#create-post-container textarea {
+#create-post-box textarea {
   border: 1px solid #cfcfcf;
+  font-size: 16px;
   border-radius: 5px;
-  padding: 5px;
-  height: 30px;
+  padding: 10px;
+  height: 50px;
   width: 300px;
+  resize: none;
 }
 
-#create-post-container textarea:focus, #create-post-container button:focus {
+#create-post-box textarea:focus, #create-post-box button:focus {
   outline: none;
 }
 
-#create-post-container button {
+#create-post-box button {
   background-color: white;
   border: 1px solid #cfcfcf;
   font-size: 16px;
   border-radius: 3px;
-  padding: 2px 5px;
+  padding: 4px 10px;
+  margin: 5px 0;
 }
 
-#create-post-container button:hover {
+#create-post-box button:hover {
   background-color: whitesmoke;
   cursor: pointer;
 }

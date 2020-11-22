@@ -1,15 +1,14 @@
 @import "./globals";
 
 #post-container {
-
+  display: grid;
+  margin-bottom: 30px;
+  margin-right: 20%;
 }
 
 .post {
   padding: 10px;
-  margin: 10px 20px;
-  .post:last-of-type {
-    margin-bottom: 30px;
-  }
+  margin: 5px 30px;
 }
 
 .post-profile-image {
@@ -39,6 +38,6 @@
 }
 
 .post-content {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }

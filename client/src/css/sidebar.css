@@ -1,0 +1,46 @@
+#sidebar-parent {
+  overflow: hidden;
+}
+
+#sidebar {
+  float: right;
+  margin: 90px 25px 0 15px;
+  padding: 10px;
+  width: 250px;
+  height: 450px;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+
+#sidebar h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#sidebar #sidebar-container input {
+  width: 95%;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#sidebar #sidebar-container input:focus, #sidebar #sidebar-container #btn-submit:focus {
+  outline: none;
+}
+
+#sidebar #sidebar-container button {
+  background-color: white;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 4px 10px;
+  margin: 5px 0;
+}
+
+#sidebar #sidebar-container button:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}

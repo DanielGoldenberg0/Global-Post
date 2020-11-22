@@ -10,6 +10,10 @@ body {
   background-color: $primary-background-color;
 }
 
+.box-title {
+  color: $accent-color;
+}
+
 .box {
   background-color: $secondary-background-color;
   border: 1px solid $border-color;
